@@ -15,11 +15,12 @@
 		+ output: the output list file.
 2. Download SRA files
 	* Usage: 
-		+ sh 02_download.sh path max_size input_krt
+		+ sh 02_download.sh path max_size input_krt sra_path
 	* OPTIONS:
 		+ path: the path which is the project space folder.
 		+ max_size: the maximum file size to download. 
 		+ input: the input krt file.
+		+ sra_path: the folder which contains the downloaded SRA files.
 3. Determine which SRA IDs did not finish downloading
 	* Usage: 
 		+ python3 03_checkSRAsDownloaded.py sra_list sra_path
