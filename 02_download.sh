@@ -8,9 +8,9 @@ cd $1
 # Download the SRA file
 prefetch.2.8.2 --max-size=$2 $3
 # delete temporary files 
-rm ${4}/*.tmp.aspera-ckpt
-rm ${4}/*.tmp.partial
-rm ${4}/*.lock
-rm ${4}/*.tmp
-rm ${4}/*.vdbcache.cache
-rm ${4}/*.vdbcache
+rm -f ${4}/*.tmp.aspera-ckpt
+rm -f ${4}/*.tmp.partial
+rm -f ${4}/*.lock
+rm -f ${4}/*.tmp
+rm -f ${4}/*.vdbcache.cache
+rm -f ${4}/*.vdbcache
