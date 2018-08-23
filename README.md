@@ -35,7 +35,7 @@
 		+ fastq_path: the path which to put converted fastq files.
 5. Verify that all the fastq files are present
 	* Usage: 
-		+ python3 05_checkFastqsConverted.py sra_list fastq_sra
+		+ python3 05_checkFastqsConverted.py sra_list fastq_path
 	* OPTIONS:
 		+ sra_list: the list file which gets from step 1.
 		+ fastq_path: the fastq files path.
